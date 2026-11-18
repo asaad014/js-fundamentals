@@ -5,8 +5,12 @@ var twoSum = function(nums, target) {
         for(let j=0 ; j < nums.length ; j++)
         {
             if(i == j)continue;
-            if((nums[i] + nums[j]) == target) 
+            if((nums[i] + nums[j]) == target){
                     newArr.push(i)
+                    newArr.push(j)
+                    return newArr
+
+            }
 
         }
         
