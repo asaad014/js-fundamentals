@@ -1,0 +1,16 @@
+# التبعيات والحزم
+node_modules/
+
+# متغيرات البيئة والأسرار
+.env
+.env.local
+
+# ملفات النظام والمحرر
+.DS_Store
+Thumbs.db
+.vscode/
+
+# مخرجات البناء والسجلات
+dist/
+build/
+*.log
